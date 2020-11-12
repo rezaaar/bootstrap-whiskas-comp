@@ -1,0 +1,80 @@
+nav {
+    height: 150px;
+    width: 100%;
+}
+
+body {
+    font-family: Poppins, sans-serif;
+}
+
+.navbar-brand img{
+    width: 100px;
+}
+
+.nav-item {
+    margin: 0 1em;
+}
+
+#banner {
+    background-color: #8A006F;
+    width: 100%;
+    height: calc(100vh - 150px);
+}
+
+.banner-img {
+    object-fit: cover;
+    margin-left: -80px;
+    width: 800px;
+}
+
+.banner-title {
+    color: white;
+    font-weight: bold;
+    font-size: 60pt;
+}
+.about-image {
+    width: 500px;
+}
+
+.banner-content {
+    margin-top: 12em;
+}
+
+#about {
+    padding-top: 8em;
+}
+
+.about-content {
+    margin-top: 5em;
+}
+
+#why {
+    padding-top: 8em;
+}
+
+.card{
+    border: none;
+}
+
+#parallax {
+    margin-top: 8em;
+    background: linear-gradient(rgba(138, 0, 111, 0.3), rgba(138, 0, 111, 0.6)), url("../img/parallax.jpg") fixed center no-repeat;
+    height: 300px;
+    background-size: cover;
+}
+
+#parallax h3 {
+    color: white;
+    text-align: center;
+    padding-top: 90px;
+    font-size: 20pt;
+}
+
+#product {
+    padding: 8em 0;
+}
+
+#guide {
+    padding-top: 8em;
+    background-color: #f6f6f6;
+}
